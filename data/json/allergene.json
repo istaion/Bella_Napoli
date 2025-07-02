@@ -1,0 +1,153 @@
+{
+  "restaurant": "VAPIANO",
+  "date_mise_a_jour": "JUIN 2024",
+  "avertissement": "Cette liste est non exhaustive et peut changer. Nous la mettons régulièrement à jour selon nos modifications de recettes. Nous ne garantissons pas à 100% l'exhaustivité de ces informations. Le risque de contamination croisée des ingrédients lors des manipulations ou de contamination des produits lors de leur arrivée en restaurant ne peut pas être exclu.",
+  "allergenes_par_produit": {
+    "PAIN_CIABATTA": ["CÉRÉALES OU GLUTEN"],
+    "ANTIPASTI": {
+      "BRUSCHETTA": ["CÉRÉALES OU GLUTEN", "CÉLERI", "MOUTARDE", "GRAINE DE SÉSAME"],
+      "BRUSCHETTA_SCAMPI": ["CÉRÉALES OU GLUTEN", "CRUSTACÉS", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "BURRATA": ["CÉRÉALES OU GLUTEN", "LAIT"],
+      "CHEESY_GARLIC_BREAD_TRUFFE": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT"],
+      "GARLIC_BREAD_CHEVRE": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT"],
+      "STICKS_DIP_SAUCE_AIL_HERBES": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "MOUTARDE"],
+      "STICKS_DIP_SAUCE_CHEESY_GOURMANDE": ["CÉRÉALES OU GLUTEN", "LAIT"]
+    },
+    "INSALATA": {
+      "MISTA_DELLA_CASA": ["ŒUFS", "LAIT"],
+      "GRECO": ["LAIT", "MOUTARDE"],
+      "CESARE_CHICKEN": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT"],
+      "CESARE_SCAMPI": ["CÉRÉALES OU GLUTEN", "CRUSTACÉS", "ŒUFS", "LAIT", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "MISTA_SCAMPI": ["CRUSTACÉS", "ŒUFS", "LAIT", "MOUTARDE", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "NICOISE": ["ŒUFS", "POISSONS"],
+      "GRECO_CHICKEN": ["LAIT", "MOUTARDE", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "SALADE_CROQUANTE": ["MOUTARDE", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "SAUCE_BALSAMIQUE": ["MOUTARDE", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "SAUCE_CITRON_GINGEMBRE": ["LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "SAUCE_CESAR": ["ŒUFS", "POISSONS", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)", "MOUTARDE", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"]
+    },
+    "PIZZA": {
+      "MARGHERITA": ["CÉRÉALES OU GLUTEN", "LAIT", "CÉLERI", "MOUTARDE", "GRAINE DE SÉSAME"],
+      "MARGHERITA_DI_BUFALA": ["CÉRÉALES OU GLUTEN", "LAIT", "CÉLERI", "MOUTARDE", "GRAINE DE SÉSAME"],
+      "FUNGHI": ["CÉRÉALES OU GLUTEN", "LAIT", "CÉLERI", "MOUTARDE", "GRAINE DE SÉSAME"],
+      "QUATTRO_FORMAGGI": ["CÉRÉALES OU GLUTEN", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)"],
+      "CHEVRE_MIEL": ["CÉRÉALES OU GLUTEN", "LAIT"],
+      "BIANCA": ["LAIT"],
+      "BURRATA_E_PESTO": ["ŒUFS", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)"],
+      "CACIO_E_PEPE": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)"],
+      "TONNO": ["CÉRÉALES OU GLUTEN", "POISSONS", "LAIT", "CÉLERI", "MOUTARDE", "GRAINE DE SÉSAME"],
+      "REGINA_DEL_RE": ["CÉRÉALES OU GLUTEN", "LAIT", "CÉLERI", "MOUTARDE", "GRAINE DE SÉSAME"],
+      "CRUDO": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "CÉLERI", "MOUTARDE", "GRAINE DE SÉSAME"],
+      "PEPPERONI_SIGNATURE": ["CÉRÉALES OU GLUTEN", "LAIT", "CÉLERI", "MOUTARDE", "GRAINE DE SÉSAME"],
+      "PEPPERONI_CLASSIQUE": ["CÉRÉALES OU GLUTEN", "LAIT"],
+      "CANNIBALE": ["CÉRÉALES OU GLUTEN", "LAIT", "CÉLERI", "MOUTARDE", "GRAINE DE SÉSAME"],
+      "CALZONE": ["CÉRÉALES OU GLUTEN", "LAIT", "CÉLERI", "MOUTARDE", "GRAINE DE SÉSAME"],
+      "BBQ_CHICKEN": ["CÉRÉALES OU GLUTEN", "LAIT", "CÉLERI", "MOUTARDE", "GRAINE DE SÉSAME"],
+      "CHICKEN_ALFREDO": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "CARBONARA": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT"],
+      "CHICKEN_PIQUANTE": ["CÉRÉALES OU GLUTEN", "ŒUFS", "SOJA", "LAIT", "CÉLERI", "MOUTARDE", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"]
+    },
+    "PASTA": {
+      "POMODORO": ["CÉRÉALES OU GLUTEN", "ŒUFS", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "CREMA_DI_FUNGHI": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "PESTO_BASILICO": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)"],
+      "QUATTRO_FORMAGGI": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)"],
+      "AUX_TRUFFES": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "CÉLERI", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "CACIO_E_PEPE": ["CÉRÉALES OU GLUTEN", "ŒUFS", "SOJA", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)", "CÉLERI", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "SCAMPI_E_SPINACI": ["CÉRÉALES OU GLUTEN", "CRUSTACÉS", "ŒUFS", "LAIT", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "CARBONARA_SALMONE": ["CÉRÉALES OU GLUTEN", "ŒUFS", "POISSONS", "LAIT"],
+      "SCAMPI_PICCANTE": ["CÉRÉALES OU GLUTEN", "CRUSTACÉS", "ŒUFS", "LAIT", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "SCAMPI_E_SALMONE": ["CÉRÉALES OU GLUTEN", "CRUSTACÉS", "ŒUFS", "POISSONS", "LAIT", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "SCAMPI_ALFREDO": ["CÉRÉALES OU GLUTEN", "CRUSTACÉS", "ŒUFS", "LAIT", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "SCAMPI_PICCANTE_PESTO_ROSSO": ["CÉRÉALES OU GLUTEN", "CRUSTACÉS", "ŒUFS", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)", "CÉLERI", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "SCAMPI_E_LEMON": ["CÉRÉALES OU GLUTEN", "CRUSTACÉS", "ŒUFS", "SOJA", "LAIT", "CÉLERI", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "BOLOGNESE": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "CÉLERI", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "CARBONARA": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT"],
+      "CHICKEN_ALFREDO": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "CHICKEN_RUSTIQUE": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)"],
+      "CHICKEN_PESTO_ROSSO": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)"],
+      "CHICKEN_ARRABIATA": ["CÉRÉALES OU GLUTEN", "ŒUFS", "SOJA", "LAIT", "CÉLERI", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"]
+    },
+    "GNOCCHIS": {
+      "GNOCCHI_SCAMPI_SALMONE_E_SPINACI": ["CÉRÉALES OU GLUTEN", "CRUSTACÉS", "ŒUFS", "POISSONS", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "GNOCCHI_POMODORO": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "CÉLERI"]
+    },
+    "LASAGNES": {
+      "BOLOGNESE": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT", "CÉLERI", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"]
+    },
+    "RISOTTO": {
+      "CREMA_DI_FUNGHI": ["ŒUFS", "LAIT", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "QUATTRO_FORMAGGI": ["ŒUFS", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "CHICKEN_SUPREME": ["LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"]
+    },
+    "DOLCI": {
+      "PANNA_COTTA": ["LAIT"],
+      "TIRAMISU": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT"],
+      "TIRAMISU_PISTACHE_FRAISE": ["CÉRÉALES OU GLUTEN", "ŒUFS", "ARACHIDES", "SOJA", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)", "GRAINE DE SÉSAME", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "CREMA_DI_FRAGOLA": ["ŒUFS", "LAIT"],
+      "CREMA_DI_LEMON": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT"],
+      "MOUSSE_AU_CHOCOLAT": ["ŒUFS", "SOJA", "LAIT"],
+      "CHEESECAKE": ["CÉRÉALES OU GLUTEN", "SOJA", "LAIT"],
+      "CHEESECAKE_OREO": ["CÉRÉALES OU GLUTEN", "SOJA", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)"],
+      "CHOCO_MONSTER": ["CÉRÉALES OU GLUTEN", "SOJA", "LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)"],
+      "GATEAU_AU_CHOCOLAT": ["CÉRÉALES OU GLUTEN", "ŒUFS", "LAIT"],
+      "GLACES": ["CÉRÉALES OU GLUTEN", "SOJA", "LAIT"],
+      "CORNET_GLACE": ["CÉRÉALES OU GLUTEN", "SOJA"]
+    },
+    "EXTRAS": {
+      "THON": ["POISSONS"],
+      "SAUMON": ["POISSONS"],
+      "CREVETTES": ["CRUSTACÉS", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "PASTA": ["CÉRÉALES OU GLUTEN"],
+      "FETA": ["LAIT"],
+      "FROMAGE_ITALIEN": ["ŒUFS", "LAIT"],
+      "MOZZARELLA_DI_BUFFALA": ["LAIT"],
+      "CREME": ["LAIT"],
+      "MOZZARELLA_RAPE": ["LAIT"],
+      "BURRATA": ["LAIT"],
+      "PEPPERONI": ["LAIT"]
+    },
+    "COCKTAILS": {
+      "PINA_COLADA": ["LAIT"],
+      "WHOS_WHO": ["LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"],
+      "FROZEN_MARGARITA": ["LAIT", "FRUITS À COQUE (amandes, noisettes, noix, noix de cajou, noix de pécan, noix du Brésil, noix de macadamia, pistaches, pignons de pin)", "ANHYDRIDES SULFUREUX SULFITES (à une concentration >10 mg/kg or 10 mg/l as SO2)"]
+    }
+  },
+  "recherche_par_allergene": {
+    "SANS_GLUTEN": {
+      "note": "Aucun plat n'est garanti sans gluten à cause des risques de contamination croisée",
+      "plats_potentiels": []
+    },
+    "SANS_LACTOSE": {
+      "note": "Vérifier avec le personnel - contamination croisée possible",
+      "plats_potentiels": [
+        "CARPACCIO_DE_CHAROLAIS",
+        "CRUDO_SALADE",
+        "SCAMPI_CIPRIANI"
+      ]
+    },
+    "SANS_ŒUFS": {
+      "plats_possibles": [
+        "CARPACCIO_DE_CHAROLAIS",
+        "CRUDO_SALADE", 
+        "SCAMPI_CIPRIANI",
+        "PANNA_COTTA"
+      ]
+    },
+    "VEGETARIEN": {
+      "plats": [
+        "MARGHERITA",
+        "MARGHERITA_DI_BUFALA",
+        "FUNGHI",
+        "QUATTRO_FORMAGGI",
+        "PESTO_BASILICO",
+        "POMODORO",
+        "CREMA_DI_FUNGHI",
+        "RISOTTO_QUATTRO_FORMAGGI",
+        "RISOTTO_CREMA_DI_FUNGHI"
+      ]
+    },
+    "VEGAN": {
+      "note": "Aucun plat vegan identifié - tous contiennent du fromage, des œufs ou de la crème"
+    }
+  }}
