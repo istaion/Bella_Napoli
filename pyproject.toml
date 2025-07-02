@@ -1,0 +1,18 @@
+[project]
+name = "bella-napoli"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.0.13",
+    "gradio>=5.35.0",
+    "langchain-community>=0.3.26",
+    "langchain-ollama>=0.3.3",
+    "longchain>=0.4.2",
+    "ollama>=0.5.1",
+    "pymupdf>=1.26.1",
+    "pypdf2>=3.0.1",
+]
+[tool.setuptools]
+packages = []
